@@ -1,0 +1,19 @@
+{
+    "DomainId": "d-ftzncclpmh8x",
+    "SpaceName": "my-shared-lab-space-oct3",
+    "SpaceSettings": {
+        "AppType": "JupyterLab",
+        "JupyterLabAppSettings": {
+            "DefaultResourceSpec": {
+                "InstanceType": "ml.t3.medium",
+                "SageMakerImageArn": "arn:aws:sagemaker:us-west-2:885854791233:image/sagemaker-distribution-cpu"
+            }
+        }
+    },
+    "OwnershipSettings": {
+        "OwnerUserProfileName": "xss"
+    },
+    "SpaceSharingSettings": {
+        "SharingType": "Private"
+    }
+}

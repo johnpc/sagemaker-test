@@ -1,0 +1,10 @@
+{
+    "DomainId": "d-ftzncclpmh8x",
+    "SpaceName": "my-shared-lab-space-oct3",
+    "AppType": "JupyterLab",
+    "AppName": "default",
+    "ResourceSpec": {
+        "SageMakerImageArn": "arn:aws:sagemaker:us-west-2:885854791233:image/sagemaker-distribution-cpu",
+        "InstanceType": "ml.t3.medium"
+    }
+}

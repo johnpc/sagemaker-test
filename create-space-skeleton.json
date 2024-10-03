@@ -1,0 +1,101 @@
+{
+    "DomainId": "",
+    "SpaceName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "SpaceSettings": {
+        "JupyterServerAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "SageMakerImageVersionAlias": "",
+                "InstanceType": "system",
+                "LifecycleConfigArn": ""
+            },
+            "LifecycleConfigArns": [
+                ""
+            ],
+            "CodeRepositories": [
+                {
+                    "RepositoryUrl": ""
+                }
+            ]
+        },
+        "KernelGatewayAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "SageMakerImageVersionAlias": "",
+                "InstanceType": "system",
+                "LifecycleConfigArn": ""
+            },
+            "CustomImages": [
+                {
+                    "ImageName": "",
+                    "ImageVersionNumber": 0,
+                    "AppImageConfigName": ""
+                }
+            ],
+            "LifecycleConfigArns": [
+                ""
+            ]
+        },
+        "CodeEditorAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "SageMakerImageVersionAlias": "",
+                "InstanceType": "system",
+                "LifecycleConfigArn": ""
+            },
+            "AppLifecycleManagement": {
+                "IdleSettings": {
+                    "IdleTimeoutInMinutes": 0
+                }
+            }
+        },
+        "JupyterLabAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "SageMakerImageVersionAlias": "",
+                "InstanceType": "system",
+                "LifecycleConfigArn": ""
+            },
+            "CodeRepositories": [
+                {
+                    "RepositoryUrl": ""
+                }
+            ],
+            "AppLifecycleManagement": {
+                "IdleSettings": {
+                    "IdleTimeoutInMinutes": 0
+                }
+            }
+        },
+        "AppType": "JupyterServer",
+        "SpaceStorageSettings": {
+            "EbsStorageSettings": {
+                "EbsVolumeSizeInGb": 0
+            }
+        },
+        "CustomFileSystems": [
+            {
+                "EFSFileSystem": {
+                    "FileSystemId": ""
+                }
+            }
+        ]
+    },
+    "OwnershipSettings": {
+        "OwnerUserProfileName": ""
+    },
+    "SpaceSharingSettings": {
+        "SharingType": "Private"
+    },
+    "SpaceDisplayName": ""
+}

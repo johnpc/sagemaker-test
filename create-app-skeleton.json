@@ -1,0 +1,20 @@
+{
+    "DomainId": "",
+    "UserProfileName": "",
+    "SpaceName": "",
+    "AppType": "JupyterServer",
+    "AppName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ResourceSpec": {
+        "SageMakerImageArn": "",
+        "SageMakerImageVersionArn": "",
+        "SageMakerImageVersionAlias": "",
+        "InstanceType": "system",
+        "LifecycleConfigArn": ""
+    }
+}
